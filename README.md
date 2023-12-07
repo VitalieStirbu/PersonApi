@@ -15,14 +15,13 @@ PersonAPI is a RESTful WebAPI built on .NET Core 7 that allows interaction with 
 3. Navigate to the project directory in the terminal.
 4. Run `dotnet build` to build the solution.
 5. Run `dotnet run` to start the API.
- OR
-4. Run the project from VS
+You can also skip step 3,4,5 and run the app from VS
 
 ## Logging
 - Serilog is used for logging.
 - Logs are stored in the `logs` folder.
 - Logs can also be viewed in the console.
-- Logging configuration can be adjusted in the `appsettings.json` file.
+- Logging configuration can be adjusted in the `appsettings.json` file or Program.cs.
 
 ## Validation
 - FluentValidation is implemented for request validation.
